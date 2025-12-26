@@ -1,0 +1,19 @@
+ {
+  "siteTitle": "Nyoni Online Market",
+  "siteDescription": "Digital Solutions & Services - WhatsApp Bots, Graphic Designs, Marketing",
+  "colors": {
+    "primary": "#ff6b6b",
+    "secondary": "#1a1a2e"
+  },
+  "contactEmail": "nyonixmd@gmail.com",
+  "phoneNumbers": [
+    "255610209120",
+    "255760003443",
+    "255763111390"
+  ],
+  "features": {
+    "darkMode": true,
+    "notifications": true,
+    "analytics": true
+  }
+ }
