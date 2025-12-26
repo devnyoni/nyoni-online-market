@@ -1,0 +1,78 @@
+ {
+  "platforms": [
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@mohamedbinhuzaifa",
+      "icon": "fab fa-tiktok",
+      "description": "Follow for tech tips and updates",
+      "buttonText": "Follow on TikTok",
+      "stats": [
+        {
+          "icon": "fas fa-users",
+          "value": "10K+ Followers"
+        },
+        {
+          "icon": "fas fa-heart",
+          "value": "50K+ Likes"
+        }
+      ]
+    },
+    {
+      "name": "YouTube",
+      "url": "https://youtube.com/@chiefmamba-cm18",
+      "icon": "fab fa-youtube",
+      "description": "Watch tutorials and demos",
+      "buttonText": "Subscribe",
+      "stats": [
+        {
+          "icon": "fas fa-users",
+          "value": "5K+ Subscribers"
+        },
+        {
+          "icon": "fas fa-play-circle",
+          "value": "100+ Videos"
+        }
+      ]
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/nyoni.xmd",
+      "icon": "fab fa-instagram",
+      "description": "Behind the scenes and updates",
+      "buttonText": "Follow",
+      "stats": [
+        {
+          "icon": "fas fa-users",
+          "value": "2K+ Followers"
+        },
+        {
+          "icon": "fas fa-image",
+          "value": "100+ Posts"
+        }
+      ]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/profile.php?id=61575370873808",
+      "icon": "fab fa-facebook",
+      "description": "Connect and get updates",
+      "buttonText": "Like Page",
+      "stats": [
+        {
+          "icon": "fas fa-users",
+          "value": "1K+ Followers"
+        },
+        {
+          "icon": "fas fa-thumbs-up",
+          "value": "500+ Likes"
+        }
+      ]
+    }
+  ],
+  "whatsappChannel": "https://whatsapp.com/channel/0029VbAffhD2ZjChG9DX922r",
+  "phoneNumbers": [
+    "255610209120",
+    "255760003443",
+    "255763111390"
+  ]
+ }
