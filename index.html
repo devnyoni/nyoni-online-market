@@ -1,0 +1,733 @@
+ <!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyoni Online Market</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="https://files.catbox.moe/pbnv7e.jpg">
+    <meta name="description" content="Nyoni Online Market - Biashara ya Kielektroniki na Huduma Mbalimbali">
+    <meta name="keywords" content="Nyoni, Online Market, WhatsApp Bot, Tanzania, Digital Services">
+    <meta name="author" content="Nyoni Online Market">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading">
+        <div class="loader">
+            <img src="https://files.catbox.moe/pbnv7e.jpg" alt="Nyoni Logo">
+            <h2>Nyoni Online Market</h2>
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="https://files.catbox.moe/pbnv7e.jpg" alt="Nyoni Logo">
+                    <h1>NYONI ONLINE MARKET</h1>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i> Nyumbani</a></li>
+                    <li><a href="#bot" class="nav-link"><i class="fas fa-robot"></i> Bot Deployment</a></li>
+                    <li><a href="#channel" class="nav-link"><i class="fab fa-whatsapp"></i> Channel</a></li>
+                    <li><a href="#social" class="nav-link"><i class="fas fa-share-alt"></i> Social Media</a></li>
+                    <li><a href="#tarraso" class="nav-link"><i class="fas fa-paint-brush"></i> Tarraso Design</a></li>
+                    <li><a href="#ads" class="nav-link"><i class="fas fa-ad"></i> Matangazo</a></li>
+                    <li><a href="#contact" class="nav-link"><i class="fas fa-phone"></i> Mawasiliano</a></li>
+                    <li><a href="admin/admin.html" class="nav-link admin-btn"><i class="fas fa-lock"></i> Admin</a></li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>KARIBU <span class="highlight">NYONI ONLINE MARKET</span></h2>
+                    <p>Huduma Bora za Kielektroniki, Bot Deployment, na Ubunifu wa Tarraso Design</p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <i class="fas fa-robot"></i>
+                            <h3>500+</h3>
+                            <p>Bot Deployments</p>
+                        </div>
+                        <div class="stat">
+                            <i class="fab fa-whatsapp"></i>
+                            <h3>2K+</h3>
+                            <p>Channel Members</p>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-users"></i>
+                            <h3>10K+</h3>
+                            <p>Social Followers</p>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-star"></i>
+                            <h3>100%</h3>
+                            <p>Customer Satisfaction</p>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#bot" class="btn primary-btn">Deploy Bot Yako</a>
+                        <a href="#contact" class="btn secondary-btn">Wasiliana Nasi</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://files.catbox.moe/pbnv7e.jpg" alt="Nyoni Market Hero">
+                </div>
+            </div>
+        </section>
+
+        <!-- Bot Deployment Section -->
+        <section id="bot" class="section">
+            <div class="container">
+                <h2 class="section-title"><i class="fas fa-robot"></i> BOT DEPLOYMENT</h2>
+                <p class="section-subtitle">Auto WhatsApp Bot Deployment na Group Management</p>
+                
+                <div class="bot-features">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Auto Deployment</h3>
+                        <p>Bot inajideploy moja kwa moja baada ya pairing</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-users-cog"></i>
+                        </div>
+                        <h3>Group Management</h3>
+                        <p>Ongeza, toa, na simamia magroup kwa urahisi</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-broadcast-tower"></i>
+                        </div>
+                        <h3>Auto Broadcast</h3>
+                        <p>Tuma ujumbe kwa magroup yote kwa sekunde</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>24/7 Protection</h3>
+                        <p>Anti-spam, anti-link na usalama kamili</p>
+                    </div>
+                </div>
+                
+                <div class="bot-demo">
+                    <h3>Bot Demo & Installation</h3>
+                    <div class="code-box">
+                        <pre><code>
+# Clone Repository
+git clone https://github.com/nyoni-market/nyoni-mini-bot.git
+
+# Install Dependencies
+cd nyoni-mini-bot
+npm install
+
+# Start Bot
+npm start
+
+# Scan QR Code na WhatsApp
+                        </code></pre>
+                    </div>
+                    <div class="bot-actions">
+                        <button class="btn primary-btn" onclick="downloadBot()">
+                            <i class="fas fa-download"></i> Download Bot Files
+                        </button>
+                        <button class="btn secondary-btn" onclick="showQR()">
+                            <i class="fas fa-qrcode"></i> Generate Demo QR
+                        </button>
+                        <a href="#contact" class="btn success-btn">
+                            <i class="fas fa-headset"></i> Msaada wa Setup
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Channel Section -->
+        <section id="channel" class="section channel-section">
+            <div class="container">
+                <h2 class="section-title"><i class="fab fa-whatsapp"></i> WHATSAPP CHANNEL</h2>
+                <p class="section-subtitle">Jiunge na Channel yetu ya WhatsApp kwa updates za kila siku</p>
+                
+                <div class="channel-container">
+                    <div class="channel-info">
+                        <div class="channel-header">
+                            <img src="https://files.catbox.moe/pbnv7e.jpg" alt="Channel Logo">
+                            <div>
+                                <h3>Nyoni Market Updates</h3>
+                                <p>120363399470975987@newsletter</p>
+                                <div class="channel-stats">
+                                    <span><i class="fas fa-users"></i> 2,500+ Members</span>
+                                    <span><i class="fas fa-bell"></i> Daily Updates</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="channel-content">
+                            <h4>Mada Zinazochambuliwa:</h4>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Bot Deployment Tutorials</li>
+                                <li><i class="fas fa-check-circle"></i> Digital Marketing Tips</li>
+                                <li><i class="fas fa-check-circle"></i> Tech News & Updates</li>
+                                <li><i class="fas fa-check-circle"></i> Business Opportunities</li>
+                                <li><i class="fas fa-check-circle"></i> Exclusive Offers</li>
+                            </ul>
+                            
+                            <div class="recent-posts">
+                                <h4>Posts za Hivi Karibuni:</h4>
+                                <div id="channelPosts">
+                                    <!-- Posts will be loaded dynamically -->
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="channel-actions">
+                            <a href="https://whatsapp.com/channel/0029VbAffhD2ZjChG9DX922r" 
+                               target="_blank" class="btn whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i> Join Channel Sasa
+                            </a>
+                            <button class="btn secondary-btn" onclick="showChannelQR()">
+                                <i class="fas fa-qrcode"></i> Scan QR Code
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="channel-preview">
+                        <div class="whatsapp-mockup">
+                            <div class="mockup-header">
+                                <i class="fas fa-arrow-left"></i>
+                                <div class="contact-info">
+                                    <img src="https://files.catbox.moe/pbnv7e.jpg" alt="Channel">
+                                    <div>
+                                        <h4>Nyoni Market Updates</h4>
+                                        <p>WhatsApp Channel • 2.5K followers</p>
+                                    </div>
+                                </div>
+                                <i class="fas fa-ellipsis-v"></i>
+                            </div>
+                            <div class="mockup-messages">
+                                <div class="message channel-message">
+                                    <strong>📢 UPDATE:</strong> Bot v2.0 imetolewa leo!
+                                </div>
+                                <div class="message channel-message">
+                                    <strong>🎉 OFFER:</strong> 50% discount kwa wanaojiunga leo!
+                                </div>
+                                <div class="message channel-message">
+                                    <strong>📚 TUTORIAL:</strong> Jinsi ya kudeploy bot yako...
+                                </div>
+                            </div>
+                            <div class="mockup-join">
+                                <button class="join-btn">
+                                    <i class="fab fa-whatsapp"></i> Follow Channel
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="admin-upload">
+                    <h4>Admin Channel Manager</h4>
+                    <div class="upload-form">
+                        <input type="text" id="postTitle" placeholder="Post Title...">
+                        <textarea id="postContent" placeholder="Post content..."></textarea>
+                        <input type="file" id="postImage" accept="image/*">
+                        <button onclick="uploadPost()" class="btn primary-btn">
+                            <i class="fas fa-upload"></i> Upload Post
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Media Section -->
+        <section id="social" class="section social-section">
+            <div class="container">
+                <h2 class="section-title"><i class="fas fa-share-alt"></i> SOCIAL MEDIA</h2>
+                <p class="section-subtitle">Fuata nyuzi zetu kwenye mitandao mbalimbali</p>
+                
+                <div class="social-grid">
+                    <!-- TikTok -->
+                    <div class="social-card tiktok">
+                        <div class="social-header">
+                            <i class="fab fa-tiktok"></i>
+                            <h3>TikTok</h3>
+                        </div>
+                        <div class="social-content">
+                            <p>Video za mafunzo, demos, na vituo vya kuvutia</p>
+                            <div class="social-stats">
+                                <span><i class="fas fa-users"></i> 5K+ Followers</span>
+                                <span><i class="fas fa-heart"></i> 50K+ Likes</span>
+                            </div>
+                            <a href="https://www.tiktok.com/@mohamedbinhuzaifa" 
+                               target="_blank" class="social-btn">
+                                <i class="fab fa-tiktok"></i> Follow on TikTok
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- YouTube -->
+                    <div class="social-card youtube">
+                        <div class="social-header">
+                            <i class="fab fa-youtube"></i>
+                            <h3>YouTube</h3>
+                        </div>
+                        <div class="social-content">
+                            <p>Video tutorials, reviews, na mafunzo ya kina</p>
+                            <div class="social-stats">
+                                <span><i class="fas fa-users"></i> 1K+ Subscribers</span>
+                                <span><i class="fas fa-play-circle"></i> 100+ Videos</span>
+                            </div>
+                            <a href="https://youtube.com/@chiefmamba-cm18" 
+                               target="_blank" class="social-btn">
+                                <i class="fab fa-youtube"></i> Subscribe
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Instagram -->
+                    <div class="social-card instagram">
+                        <div class="social-header">
+                            <i class="fab fa-instagram"></i>
+                            <h3>Instagram</h3>
+                        </div>
+                        <div class="social-content">
+                            <p>Picha, stories, na updates za kila siku</p>
+                            <div class="social-stats">
+                                <span><i class="fas fa-users"></i> 2K+ Followers</span>
+                                <span><i class="fas fa-image"></i> 500+ Posts</span>
+                            </div>
+                            <a href="https://www.instagram.com/nyoni.xmd" 
+                               target="_blank" class="social-btn">
+                                <i class="fab fa-instagram"></i> Follow on IG
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Facebook -->
+                    <div class="social-card facebook">
+                        <div class="social-header">
+                            <i class="fab fa-facebook"></i>
+                            <h3>Facebook</h3>
+                        </div>
+                        <div class="social-content">
+                            <p>Updates, events, na mawasiliano na wateja</p>
+                            <div class="social-stats">
+                                <span><i class="fas fa-users"></i> 3K+ Followers</span>
+                                <span><i class="fas fa-thumbs-up"></i> 1K+ Likes</span>
+                            </div>
+                            <a href="https://www.facebook.com/profile.php?id=61575370873808" 
+                               target="_blank" class="social-btn">
+                                <i class="fab fa-facebook"></i> Like Page
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- WhatsApp Contacts -->
+                <div class="whatsapp-contacts">
+                    <h3><i class="fab fa-whatsapp"></i> WhatsApp Contacts</h3>
+                    <div class="contacts-grid">
+                        <div class="contact-card">
+                            <div class="contact-header">
+                                <i class="fab fa-whatsapp"></i>
+                                <h4>Owner 1</h4>
+                            </div>
+                            <p>Mohamed Bin Huzaifa</p>
+                            <a href="https://wa.me/255760003443" target="_blank" class="whatsapp-contact">
+                                <i class="fab fa-whatsapp"></i> 255760003443
+                            </a>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-header">
+                                <i class="fab fa-whatsapp"></i>
+                                <h4>Owner 2</h4>
+                            </div>
+                            <p>Business Manager</p>
+                            <a href="https://wa.me/255763111390" target="_blank" class="whatsapp-contact">
+                                <i class="fab fa-whatsapp"></i> 255763111390
+                            </a>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-header">
+                                <i class="fab fa-whatsapp"></i>
+                                <h4>Owner 3</h4>
+                            </div>
+                            <p>Support & Services</p>
+                            <a href="https://wa.me/255610209120" target="_blank" class="whatsapp-contact">
+                                <i class="fab fa-whatsapp"></i> 255610209120
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Social Media Manager -->
+                <div class="social-manager">
+                    <h4><i class="fas fa-edit"></i> Update Social Links</h4>
+                    <div class="manager-form">
+                        <div class="form-group">
+                            <label>TikTok URL:</label>
+                            <input type="url" id="tiktokUrl" value="https://www.tiktok.com/@mohamedbinhuzaifa">
+                        </div>
+                        <div class="form-group">
+                            <label>YouTube URL:</label>
+                            <input type="url" id="youtubeUrl" value="https://youtube.com/@chiefmamba-cm18">
+                        </div>
+                        <div class="form-group">
+                            <label>Instagram URL:</label>
+                            <input type="url" id="instagramUrl" value="https://www.instagram.com/nyoni.xmd">
+                        </div>
+                        <div class="form-group">
+                            <label>Facebook URL:</label>
+                            <input type="url" id="facebookUrl" value="https://www.facebook.com/profile.php?id=61575370873808">
+                        </div>
+                        <button onclick="updateSocialLinks()" class="btn primary-btn">
+                            <i class="fas fa-save"></i> Save Changes
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tarraso Design Section -->
+        <section id="tarraso" class="section tarraso-section">
+            <div class="container">
+                <h2 class="section-title"><i class="fas fa-paint-brush"></i> TARRASO DESIGN</h2>
+                <p class="section-subtitle">Ubunifu wa kipekee wa Tarraso kwa nyumba na biashara zako</p>
+                
+                <div class="tarraso-hero">
+                    <div class="tarraso-image">
+                        <img src="https://files.catbox.moe/x190z9.jpg" alt="Tarraso Design">
+                    </div>
+                    <div class="tarraso-content">
+                        <h3>Ubunifu wa Kisasa wa Tarraso</h3>
+                        <p>Tunatoa huduma za ubunifu wa tarraso za kisasa kwa nyumba, ofisi, na maeneo ya biashara. 
+                           Kila muundo ni wa kipekee na unafanywa kwa usahihi wa juu.</p>
+                        
+                        <div class="tarraso-features">
+                            <div class="feature">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>Usahihi wa Juu</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-palette"></i>
+                                <span>Michoro ya Kuvutia</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-clock"></i>
+                                <span>Ukarabati wa Haraka</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-medal"></i>
+                                <span>Udhamini wa Kazi</span>
+                            </div>
+                        </div>
+                        
+                        <div class="tarraso-services">
+                            <h4>Huduma Zinazotolewa:</h4>
+                            <ul>
+                                <li>Muundo wa Tarraso za Ndani na Nje</li>
+                                <li>Ukarabati wa Tarraso za Zamani</li>
+                                <li>Uwekaji wa Tarraso Mpya</li>
+                                <li>Usafi na Uangalizi wa Tarraso</li>
+                                <li>Mashauri ya Uchaguzi wa Vifaa</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tarraso-gallery">
+                    <h3>Portfolio Yetu</h3>
+                    <div class="gallery-grid" id="tarrasoGallery">
+                        <!-- Gallery items will be loaded dynamically -->
+                    </div>
+                    <button onclick="loadMoreGallery()" class="btn secondary-btn">
+                        <i class="fas fa-images"></i> Load More Designs
+                    </button>
+                </div>
+                
+                <!-- Tarraso Design Upload -->
+                <div class="design-upload">
+                    <h4><i class="fas fa-upload"></i> Upload New Design</h4>
+                    <div class="upload-area">
+                        <div class="upload-box" id="uploadBox">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                            <p>Drag & Drop design images here</p>
+                            <p>or</p>
+                            <input type="file" id="designUpload" multiple accept="image/*">
+                            <label for="designUpload" class="btn primary-btn">
+                                <i class="fas fa-folder-open"></i> Browse Files
+                            </label>
+                        </div>
+                        <div class="upload-details">
+                            <input type="text" id="designTitle" placeholder="Design Title...">
+                            <textarea id="designDescription" placeholder="Design description..."></textarea>
+                            <select id="designCategory">
+                                <option value="indoor">Indoor Tarraso</option>
+                                <option value="outdoor">Outdoor Tarraso</option>
+                                <option value="commercial">Commercial</option>
+                                <option value="residential">Residential</option>
+                            </select>
+                            <button onclick="uploadDesign()" class="btn success-btn">
+                                <i class="fas fa-upload"></i> Upload Design
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ads Section -->
+        <section id="ads" class="section ads-section">
+            <div class="container">
+                <h2 class="section-title"><i class="fas fa-ad"></i> MATANGAZO</h2>
+                <p class="section-subtitle">Matangazo ya biashara na huduma zetu</p>
+                
+                <div class="ads-controls">
+                    <div class="filter-ads">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="bot">Bot Services</button>
+                        <button class="filter-btn" data-filter="tarraso">Tarraso Design</button>
+                        <button class="filter-btn" data-filter="social">Social Media</button>
+                        <button class="filter-btn" data-filter="promo">Promotions</button>
+                    </div>
+                    <button onclick="openAdManager()" class="btn primary-btn">
+                        <i class="fas fa-plus"></i> Add New Ad
+                    </button>
+                </div>
+                
+                <div class="ads-grid" id="adsContainer">
+                    <!-- Ads will be loaded dynamically -->
+                </div>
+                
+                <!-- Ad Upload/Manager Modal -->
+                <div id="adModal" class="modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3><i class="fas fa-ad"></i> Ad Manager</h3>
+                            <span class="close" onclick="closeAdModal()">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <div class="ad-form">
+                                <div class="form-group">
+                                    <label>Ad Title:</label>
+                                    <input type="text" id="adTitle" placeholder="Enter ad title...">
+                                </div>
+                                <div class="form-group">
+                                    <label>Ad Description:</label>
+                                    <textarea id="adDescription" placeholder="Enter ad description..."></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label>Category:</label>
+                                    <select id="adCategory">
+                                        <option value="bot">Bot Services</option>
+                                        <option value="tarraso">Tarraso Design</option>
+                                        <option value="social">Social Media</option>
+                                        <option value="promo">Promotions</option>
+                                        <option value="general">General</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label>Image Upload:</label>
+                                    <input type="file" id="adImage" accept="image/*">
+                                    <div class="image-preview" id="imagePreview"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Valid Until:</label>
+                                    <input type="date" id="adExpiry">
+                                </div>
+                                <div class="form-group">
+                                    <label>Priority:</label>
+                                    <select id="adPriority">
+                                        <option value="low">Low</option>
+                                        <option value="medium">Medium</option>
+                                        <option value="high">High</option>
+                                    </select>
+                                </div>
+                                <div class="form-actions">
+                                    <button onclick="saveAd()" class="btn success-btn">
+                                        <i class="fas fa-save"></i> Save Ad
+                                    </button>
+                                    <button onclick="closeAdModal()" class="btn secondary-btn">
+                                        <i class="fas fa-times"></i> Cancel
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title"><i class="fas fa-phone"></i> MAWASILIANO</h2>
+                <p class="section-subtitle">Wasiliana nasi kwa huduma na usaidizi</p>
+                
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <h3>WhatsApp</h3>
+                            <div class="contact-numbers">
+                                <a href="https://wa.me/255760003443" target="_blank">
+                                    <i class="fab fa-whatsapp"></i> 255760003443
+                                </a>
+                                <a href="https://wa.me/255763111390" target="_blank">
+                                    <i class="fab fa-whatsapp"></i> 255763111390
+                                </a>
+                                <a href="https://wa.me/255610209120" target="_blank">
+                                    <i class="fab fa-whatsapp"></i> 255610209120
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h3>Email</h3>
+                            <p>nyonionlinemarket@gmail.com</p>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h3>Working Hours</h3>
+                            <p>Monday - Saturday: 8:00 AM - 10:00 PM</p>
+                            <p>Sunday: 10:00 AM - 6:00 PM</p>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <h3>Location</h3>
+                            <p>Tanzania, Dar es Salaam</p>
+                            <p>Digital Services - Nationwide</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3>Send Message</h3>
+                        <form id="messageForm">
+                            <div class="form-group">
+                                <input type="text" id="contactName" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="contactPhone" placeholder="Phone Number" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="contactEmail" placeholder="Email (optional)">
+                            </div>
+                            <div class="form-group">
+                                <select id="contactService" required>
+                                    <option value="">Select Service</option>
+                                    <option value="bot">Bot Deployment</option>
+                                    <option value="tarraso">Tarraso Design</option>
+                                    <option value="social">Social Media Management</option>
+                                    <option value="other">Other Inquiry</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="contactMessage" placeholder="Your message..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn primary-btn">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <img src="https://files.catbox.moe/pbnv7e.jpg" alt="Nyoni Logo">
+                    <h3>NYONI ONLINE MARKET</h3>
+                </div>
+                <p>Huduma Bora za Kielektroniki na Digital Solutions</p>
+                <div class="social-links">
+                    <a href="https://www.tiktok.com/@mohamedbinhuzaifa" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://youtube.com/@chiefmamba-cm18" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/nyoni.xmd" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61575370873808" target="_blank"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="#bot"><i class="fas fa-chevron-right"></i> Bot Services</a></li>
+                    <li><a href="#channel"><i class="fas fa-chevron-right"></i> WhatsApp Channel</a></li>
+                    <li><a href="#tarraso"><i class="fas fa-chevron-right"></i> Tarraso Design</a></li>
+                    <li><a href="#ads"><i class="fas fa-chevron-right"></i> Matangazo</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#bot"><i class="fas fa-robot"></i> Bot Deployment</a></li>
+                    <li><a href="#tarraso"><i class="fas fa-paint-brush"></i> Tarraso Design</a></li>
+                    <li><a href="#social"><i class="fas fa-share-alt"></i> Social Media Management</a></li>
+                    <li><a href="#"><i class="fas fa-code"></i> Web Development</a></li>
+                    <li><a href="#"><i class="fas fa-digital-tachograph"></i> Digital Marketing</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <div class="contact-info">
+                    <p><i class="fab fa-whatsapp"></i> 255760003443</p>
+                    <p><i class="fas fa-envelope"></i> nyonionlinemarket@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Dar es Salaam, Tanzania</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Nyoni Online Market. All rights reserved.</p>
+            <p>Designed with <i class="fas fa-heart"></i> for the Digital Community</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
