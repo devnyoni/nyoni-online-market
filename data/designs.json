@@ -1,0 +1,32 @@
+ {
+  "designs": [
+    {
+      "id": "1",
+      "title": "Business Logo Design",
+      "description": "Professional logo for modern businesses",
+      "category": "logo",
+      "image": "assets/images/design-sample.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Social Media Banner",
+      "description": "Eye-catching banner for social media profiles",
+      "category": "banner",
+      "image": "assets/images/design-sample.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Instagram Post Template",
+      "description": "Creative template for Instagram posts",
+      "category": "social",
+      "image": "assets/images/design-sample.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Business Card Design",
+      "description": "Professional business card design",
+      "category": "business",
+      "image": "assets/images/design-sample.jpg"
+    }
+  ]
+ }
