@@ -1,0 +1,22 @@
+ {
+  "ads": [
+    {
+      "id": "1",
+      "title": "Summer Promotion",
+      "content": "Get 20% off on all WhatsApp bot deployments this summer! Limited time offer.",
+      "type": "promo",
+      "expiry": "2024-08-31",
+      "created": "2024-06-01T10:00:00Z",
+      "active": true
+    },
+    {
+      "id": "2",
+      "title": "New Design Portfolio",
+      "content": "Check out our latest graphic design projects in the portfolio section!",
+      "type": "announcement",
+      "expiry": null,
+      "created": "2024-06-15T14:30:00Z",
+      "active": true
+    }
+  ]
+ }
